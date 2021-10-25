@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "HDV",
+  "version": "1.0",
+  "description": "Hiding dialogs in VKontakte",
+  "icons": {
+      "128": "128.png"
+  },
+  "content_scripts": [
+      {
+          "matches": [ "https://vk.com/im*" ],
+          "js": [ "app.js" ]
+      }
+  ]
+}
